@@ -1,9 +1,46 @@
 
+
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100;}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.head-title{
+    font-weight: 800px;
+    font-size: 2em;
+}
+.nav-bar{
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    
+}
+.buttons{
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+ul{
+    align-items: center;
+}
+.sec-greeting{
+    font-weight: normal;
+    font-size: larger;
 }
