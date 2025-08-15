@@ -39,6 +39,7 @@ nav ul li a{
     background-color: orange;
     border-radius: 5px;
     padding: 20px 30px;
+    cursor: pointer;
 }
 ul{
     align-items: center;
