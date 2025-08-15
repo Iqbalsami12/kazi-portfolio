@@ -145,3 +145,6 @@ footer input[type="text"],footer input[type="email"],footer textarea{
     padding: 10px 20px;
     width: 100%;
 }
+.down-res{
+    text-align: center;
+}
