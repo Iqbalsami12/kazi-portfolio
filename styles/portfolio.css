@@ -126,3 +126,21 @@ ul{
     text-align: center;
     margin-top: 50px;
 }
+.res-foot{
+    display: flex;
+    padding: 130px 230px;
+    gap: 150px;
+    background-color: beige;
+    
+    
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    margin-bottom: 24px;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+}
